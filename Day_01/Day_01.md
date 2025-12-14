@@ -27,4 +27,4 @@ Day 1 goals:
 1. Identity Swap
 2. Type casting
 3. Precision Banking
-4, Modulo Architect
+4. Modulo Architect
