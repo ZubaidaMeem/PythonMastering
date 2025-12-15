@@ -28,6 +28,6 @@ Goal:
 3. Checking Python objects inherent Boolean Values.
 4. Using temporary variable to check atomic operation
    (```python
-   status = "Pass" if score >= 70 else "Fail"
+    status = "Pass" if score >= 70 else "Fail"
    ```
    )
