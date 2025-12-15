@@ -27,7 +27,7 @@ Goal:
    (Tips : Always use a tolerance threshold(epsilon) or round() when comparing floats in Data Science)
 3. Checking Python objects inherent Boolean Values.
 4. Using temporary variable to check atomic operation
-   (```python
+   ```python
     status = "Pass" if score >= 70 else "Fail"
    ```
-   )
+   
