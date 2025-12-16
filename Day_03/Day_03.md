@@ -22,3 +22,4 @@ Goal:
 2. Using for loop and tracker variable to calculate sum from 1 to n.
 3. Using the continue keyword.
 4. Demonstrating looping characters in a string.
+
