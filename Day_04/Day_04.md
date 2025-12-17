@@ -23,6 +23,7 @@ Goals:
 3. Using stack functions (.append() and pop()) instead of insert() or remove().
 4. Using List Comprehension for new list from old list.
 ```python
+nums = [1,2,3,4,5,6,7,8,9,10]
 squares = [x ** 2 for x in nums if x % 2 == 0 ]
 ```
 
