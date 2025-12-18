@@ -1,7 +1,7 @@
 # Day 5 Dictionaries(Hash Maps)
 ## DEEP DIVE: Theory: Hash Tables
 
-A Dictionary is a Key-Value store. It is optimized for O(1) Lookup.
+A Dictionary is a Key-Value store. It is optimized for *O(1)* Lookup.
 When you search a List, Python scans left-to-right *(O(N))*. When you search a Dictionary, Python uses a "Hash Function" to calculate exactly where the data is in the memory.
 It is instant, even in 1 million items.
 
