@@ -17,4 +17,10 @@ for key, val in user.items():
 ```
 
 Goals:
-1. 
+1. Understanding why Dict/Set search (*O(1)*) is faster than list search(*O(N)*).
+2. Accessing Dictionary item safely.
+3. Creating a dictionary that counts frequency of each letter of a string.
+4. Overriding a dictionary by another dictionary using .update() function.
+```python
+dict1.update(dict2)
+```
