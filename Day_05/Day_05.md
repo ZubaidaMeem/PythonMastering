@@ -18,6 +18,8 @@ for key, val in user.items():
 
 Goals:
 1. Understanding why Dict/Set search (*O(1)*) is faster than list search(*O(N)*).
+- **List Search:** Python must scan each item linearly.
+- **Dic/Set Search:** Python runs hash(val), gets a memory address, and looks only at the spot. It is instant.
 2. Accessing Dictionary item safely.
 3. Creating a dictionary that counts frequency of each letter of a string.
 4. Overriding a dictionary by another dictionary using .update() function.
