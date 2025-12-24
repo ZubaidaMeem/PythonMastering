@@ -5,7 +5,7 @@ def set_contains(Set, target):
     if target in memory_slot: return True
     else: return False
 
-Set = [[] for i in range(20000)]
+Set = [[] for i in range(20001)]
 
 for i in range(-10000, 10001):
     index = hash(i) % len(Set)
