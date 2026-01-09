@@ -1,7 +1,7 @@
 def find_duplicates(A, B):
     matches = []
     for i in A:
-        for j in range(0, len(B)):
+        for j in B:
             if i == j:
                 matches.append(i)
     return matches
