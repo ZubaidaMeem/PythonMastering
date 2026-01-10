@@ -1,2 +1,9 @@
-Gen_square = (x * x for x in range(100))
-Gen_filter = (x for x in range(100) if x % 2 == 0)
+def square(n):
+    for i in range(n):
+        yield i * i
+
+def filter(nums):
+    for i in nums:
+        if i % 2 == 0 : yield i
+
+chain = filter(square(100))
