@@ -1,10 +1,11 @@
-def wrapper(new):
-    def inner():
+def Decorator(new):
+    def wrapper():
         print("Before")
         new()
         print("After")
-    return inner
+    return wrapper
 
+@Decorator
 def middle(): print("Middle")
-new = wrapper(middle)
-new()
+
+middle()
